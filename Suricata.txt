@@ -1,0 +1,2 @@
+sudo suricata -vvv -r /home/hari/zlip-1.pcap -S /etc/suricata/rules/dns-events.rules | grep Alerts
+
